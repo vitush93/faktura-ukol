@@ -1,0 +1,18 @@
+{
+  "name": "ares",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "claudia create --region eu-west-1 --api-module index --policies policies"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ares": "file:../../src/ares",
+    "aws-sdk": "^2.279.1",
+    "claudia-api-builder": "^4.1.1",
+    "lodash": "^4.17.10"
+  }
+}

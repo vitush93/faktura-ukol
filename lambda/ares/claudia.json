@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "ares-executor",
+    "name": "ares",
+    "region": "eu-west-1"
+  },
+  "api": {
+    "id": "s5koih2p97",
+    "module": "index"
+  }
+}
